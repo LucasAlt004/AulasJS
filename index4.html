@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="texto">Clique no botão para mudar minha cor!</p>
+    <button id="botao">Mudar cor</button>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      var botao = document.querySelector("#botao");
+      var texto = document.querySelector("#texto");
+
+      botao.addEventListener("click", function () {
+        texto.style.backgroundColor = "blue";
+        alert("Cor alterada para azul!");
+      });
+    </script>
+  </body>
+</html>

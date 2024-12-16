@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="texto">Texto original</p>
+    <button id="botao1">Alterar para "Primeiro"</button>
+    <button id="botao2">Exibir Texto Atual</button>
+
+    <script>
+      let botao1 = document.querySelector("#botao1");
+      let botao2 = document.querySelector("#botao2");
+      let texto = document.querySelector("#texto");
+      var mensagem = "Texto original";
+
+      botao1.addEventListener("click", function () {
+        mensagem = "Primeiro botão clicado";
+        texto.textContent = mensagem;
+      });
+
+      botao2.addEventListener("click", function () {
+        alert(mensagem);
+      });
+    </script>
+  </body>
+</html>

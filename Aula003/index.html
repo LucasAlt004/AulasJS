@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="conteudo">
+      <button>Adicionar elemento</button>
+      <ul id="minha-lista"></ul>
+    </main>
+
+    <script>
+      const joao = {
+        nome: "João",
+        idade: 12,
+        materiasFavoritas: ["Matematica", "Portugues"],
+        falar: (mensagem) => console.log(mensagem),
+        amigo: {
+          nome: "Lucas",
+          idade: 12,
+        },
+      };
+
+      const pedro = {
+        nome: "João",
+        idade: 12,
+        materiasFavoritas: ["Matematica", "Portugues"],
+        falar: (mensagem) => console.log(mensagem),
+        amigo: {
+          nome: "Lucas",
+          idade: 12,
+        },
+      };
+
+      const pessoas = [
+        joao,
+        pedro,
+        {
+          nome: "Maria",
+          idade: 12,
+          materiasFavoritas: ["Matematica", "Portugues"],
+          falar: (mensagem) => console.log(mensagem),
+          amigo: {
+            nome: "Lucas",
+            idade: 12,
+          },
+        },
+      ];
+
+      const prop = "amigo"
+      console.log(joao.prop["idade"]);
+
+      
+    </script>
+  </body>
+</html>

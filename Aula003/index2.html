@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="conteudo">
+      <button>Adicionar elemento</button>
+      <ul id="minha-lista"></ul>
+    </main>
+
+    <script>
+      const minhaLista = document.getElementById("minha-lista");
+      document.querySelector("button").addEventListener("click", () => {
+        const elementoNovo = document.createElement("li");
+        elementoNovo.style.background = "red";
+        elementoNovo.style.fontSize = "32px";
+        elementoNovo.textContent = "Teste";
+
+        minhaLista.appendChild(elementoNovo);
+        minhaLista.remove();
+      });
+    </script>
+  </body>
+</html>

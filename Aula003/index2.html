@@ -14,13 +14,15 @@
     <script>
       const minhaLista = document.getElementById("minha-lista");
       document.querySelector("button").addEventListener("click", () => {
+        const elementoString = `<li>TESTE</li>`;
         const elementoNovo = document.createElement("li");
+        minhaLista.innerHTML += elementoString;
+
         elementoNovo.style.background = "red";
         elementoNovo.style.fontSize = "32px";
         elementoNovo.textContent = "Teste";
 
         minhaLista.appendChild(elementoNovo);
-        minhaLista.remove();
       });
     </script>
   </body>

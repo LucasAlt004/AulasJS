@@ -1,0 +1,45 @@
+{
+  "store": {
+    "name": "Loja Exemplo",
+    "products": [
+      {
+        "id": 1,
+        "name": "Notebook",
+        "price": 3500.0,
+        "stock": 10
+      },
+      {
+        "id": 2,
+        "name": "Cadeira Gamer",
+        "price": 750.0,
+        "stock": 5
+      }
+    ],
+    "orders": [
+      {
+        "id": 101,
+        "customer": "João Silva",
+        "items": [
+          {
+            "product_id": 1,
+            "quantity": 1
+          }
+        ],
+        "total": 3500.0,
+        "status": "Enviado"
+      },
+      {
+        "id": 102,
+        "customer": "Maria Oliveira",
+        "items": [
+          {
+            "product_id": 2,
+            "quantity": 2
+          }
+        ],
+        "total": 1500.0,
+        "status": "Processando"
+      }
+    ]
+  }
+}

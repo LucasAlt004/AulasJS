@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Notebook Gamer X15",
+    "description": "Notebook com processador Intel i7, 16GB de RAM e placa de vídeo RTX 3060.",
+    "image": "https://example.com/images/notebook-gamer-x15.jpg",
+    "price": 7999.99,
+    "category": "Notebooks",
+    "stock": 12
+  },
+  {
+    "id": 2,
+    "name": "Mouse Gamer RGB",
+    "description": "Mouse óptico com 7200 DPI, design ergonômico e iluminação RGB personalizável.",
+    "image": "https://example.com/images/mouse-gamer-rgb.jpg",
+    "price": 199.9,
+    "category": "Acessórios",
+    "stock": 45
+  },
+  {
+    "id": 3,
+    "name": "Teclado Mecânico Pro",
+    "description": "Teclado com switches mecânicos, layout ABNT2 e iluminação RGB.",
+    "image": "https://example.com/images/teclado-mecanico-pro.jpg",
+    "price": 349.9,
+    "category": "Acessórios",
+    "stock": 30
+  },
+  {
+    "id": 4,
+    "name": "Monitor UltraWide 34\"",
+    "description": "Monitor com resolução WQHD, 144Hz de taxa de atualização e tecnologia IPS.",
+    "image": "https://example.com/images/monitor-ultrawide-34.jpg",
+    "price": 2599.99,
+    "category": "Monitores",
+    "stock": 8
+  },
+  {
+    "id": 5,
+    "name": "Headset Gamer 7.1",
+    "description": "Headset com som surround 7.1, microfone destacável e almofadas de memória.",
+    "image": "https://example.com/images/headset-gamer-7-1.jpg",
+    "price": 399.9,
+    "category": "Acessórios",
+    "stock": 22
+  },
+  {
+    "id": 6,
+    "name": "Placa de Vídeo RTX 4080",
+    "description": "Placa de vídeo de última geração com 16GB de memória GDDR6X.",
+    "image": "https://example.com/images/placa-video-rtx-4080.jpg",
+    "price": 9999.99,
+    "category": "Componentes",
+    "stock": 5
+  },
+  {
+    "id": 7,
+    "name": "Cadeira Gamer Confort Pro",
+    "description": "Cadeira ergonômica com ajustes de inclinação, altura e apoio lombar.",
+    "image": "https://example.com/images/cadeira-gamer-confort-pro.jpg",
+    "price": 1299.9,
+    "category": "Móveis",
+    "stock": 18
+  },
+  {
+    "id": 8,
+    "name": "SSD NVMe 1TB",
+    "description": "SSD com leitura de até 3500MB/s e escrita de 3000MB/s.",
+    "image": "https://example.com/images/ssd-nvme-1tb.jpg",
+    "price": 599.9,
+    "category": "Armazenamento",
+    "stock": 60
+  }
+]
